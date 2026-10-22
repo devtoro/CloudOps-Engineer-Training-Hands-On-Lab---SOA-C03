@@ -1,0 +1,6 @@
+# Vendored Lambda dependencies (installed by Terraform null_resource at build).
+# Keep only handler.py + requirements.txt in version control.
+*
+!.gitignore
+!handler.py
+!requirements.txt
